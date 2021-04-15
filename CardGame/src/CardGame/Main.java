@@ -11,7 +11,7 @@ public class Main {
         card = new PlayingCard[52]; // initialisation of array
         for (int i=0; i<4; i++) {
             for (int j = 0; j < 13; j++) {
-                card[(i*13)+j] = new PlayingCard(SUITS_LIST[i], RANK_LIST[j]); //filling yhe array
+                card[(i*13)+j] = new PlayingCard(SUITS_LIST[i], RANK_LIST[j]); //filling the array
             }
         }
         for (int i=0; i<52; i++) {
